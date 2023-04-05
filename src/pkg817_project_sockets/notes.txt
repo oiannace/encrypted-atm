@@ -1,0 +1,5 @@
+- client and server need to authentication with the KDC like Alice and Bob did in lab 3
+- but have kAB be a password they use to generate AES encryption/decryption
+- then username and password are sent to server encrypted, and server checks db for them
+- then user can select options (withdrawl/deposit/check balance), that request is sent encrypted to server, and then server completes action
+
